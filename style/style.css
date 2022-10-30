@@ -1,0 +1,540 @@
+* {
+    font-family: Montserrat,sans-serif;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+/* 
+Headrt text
+ */
+
+.head-text {
+    display: block;
+    text-align: center;
+    background-color: #007AFF;
+    color: white;
+    font-size: .875rem;
+    font-weight: 600;
+    padding: 4.5px 0 4.5px 0;
+
+}
+/* 
+Logo and Navbar
+ */
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 14px;   
+    box-shadow: 0 8px 6px -6px rgb(196, 195, 195);
+    padding: 10px 0 10px 0;  
+    width: 100%; 
+}
+
+
+#logo img{
+    width: 10rem;
+    cursor: pointer;
+    
+}
+
+.nav  li {
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    list-style: none;
+    padding: 12px 16px;
+  }
+.nav  li button{
+    background-color: #007AFF;
+    padding: 10px 12px;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    border: none;
+    color: white;
+
+  }
+
+  .nav  li:hover{
+    color: #007AFF;
+  }
+.container{
+    position: absolute;
+    background-color: #FBF9F7;
+    z-index: -1;
+    
+}
+
+/* 
+Section 1
+ */
+
+.section-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-1 > .left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-1 > .left h3{
+    font-size: 40px;
+    font-weight: inherit;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    padding-left: 25%;
+    line-height: 1.5;
+}
+
+.section-1 > .left h3 span{
+    color: #007AFF;
+
+}
+
+.section-1 > .left p{
+    margin-bottom: 10px;
+    padding-left: 25%;
+    font-size: 1.125rem;
+    line-height: 2rem;
+}
+.section-1 > .left h4{
+    margin-bottom: 10px;
+    padding-left: 25%;
+    font-size: 1.125rem;
+    font-weight: 600;
+    line-height: 2rem;
+}
+.section-1 > .right{
+    width: 50%;
+    display: flex;
+}
+
+.section-1 > .right img{
+    width: 65%;
+    padding: 50px;
+    
+}
+
+.btn-1{
+    display: flex;
+    flex-direction: row;
+      
+}
+
+.btn-1 > .left{
+    background-color: #007AFF;
+    margin-left: 25%;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    cursor: pointer;
+    border: none;
+    color: white;
+    font-weight: 700;
+    font-size: .875rem;
+    line-height: 1.25rem;
+}
+
+.btn-1 > .right{
+    border-color: #007AFF;
+    margin-left: 10px;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    cursor: pointer;
+    color: #007AFF;
+    font-weight: 700;
+    font-size: .875rem;
+    line-height: 1.25rem;
+}
+/* 
+Section 2
+ */
+
+.section-2 {
+    background-color: #D8EAFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+
+.section-2 > .right img{
+    width: 65%;
+    padding: 40px;
+    border-radius:60px;
+    
+}
+
+.section-2 > .right{
+    width: 50%;
+    display: flex;
+}
+
+.section-2 > .left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-2 > .left h3{
+    font-size: 1.875rem;
+    font-weight: inherit;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    padding-left: 25%;
+    line-height: 1.5;
+}
+
+.section-2 > .left p{
+    margin-bottom: 10px;
+    padding-left: 25%;
+    
+}
+
+.section-2 > .left h3 span{
+    color: #007AFF;
+
+}
+/* 
+Section 3
+ */ 
+.section-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-3 h1 {
+    padding-top: 25px;
+    line-height: 1.25;
+    font-weight: 900;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 1.25rem;
+    
+}
+
+.section-3 h1 span{
+    color: #007AFF;
+}
+.box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.box > .box-1{
+    background-color: white;
+    display: block;
+    width: 50%;
+    border: 2px solid #D8EAFF;
+    padding: 18px;
+    line-height: 1.5;
+    margin-right: 8px;
+}
+
+.box > .box-1 h2{
+    font-weight: 800;
+    font-size: inherit;
+    line-height: 1.5;
+    padding-bottom: 9px;
+}
+
+.box > .box-1 button{
+    border-color: #007AFF;
+    padding: 8px 12px;
+    cursor: pointer;
+    color: #007AFF;
+    font-weight: 700;
+    font-size: .875rem;
+    line-height: 1.25rem;
+
+}
+
+.box > .box-2{
+    background-color: white;
+    display: block;
+    width: 50%;
+    border: 2px solid #D8EAFF;
+    line-height: 1.5;
+    padding: 18px;
+    margin-left: 8px;
+}
+
+.box > .box-2 h2{
+    font-weight: 800;
+    font-size: inherit;
+    line-height: 1.5;
+    padding-bottom: 9px;
+}
+
+.box > .box-2 button{
+    border-color: #007AFF;
+    padding: 8px 12px;
+    cursor: pointer;
+    color: #007AFF;
+    font-weight: 700;
+    font-size: .875rem;
+    line-height: 1.25rem;
+}
+
+.partners{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.partners h1{
+    padding-top: 25px;
+    line-height: 1.25;
+    font-weight: 900;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 1.25rem;
+}
+
+.partners > .partner-logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.partners > .partner-logo img{
+    height: 55px;
+    margin: 0.5rem;
+}
+
+/* 
+Section 4
+ */ 
+
+.section-4 {
+    background-color: #FFF2D5;
+    display: flex;
+    flex-direction: row;
+    margin-top: 35px;
+    padding-left: 12%;
+    
+  }
+
+  .section-4 > .left {
+    display: flex;
+    padding: 12px;
+  }
+
+  .section-4 > .left img{
+    height: 350px;
+    margin: 0.5rem;
+    border: 4px solid white;
+    border-radius: 0.25rem;
+    box-shadow: 0 8px 6px -6px rgb(196, 195, 195);
+  }
+
+  .section-4 > .right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .section-4 > .right p{
+    padding-left: 0.5rem;
+    border-left: 2px solid #007AFF;
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+
+  }
+
+  .section-4 > .right h1{
+    font-weight: 700;
+    font-size: 25px;
+  }
+
+  .section-4 > .right h1 span{
+    color: #007AFF;
+  }
+
+  .section-4 > .right p span{
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+
+  /* 
+Section 5
+ */ 
+
+ .section-5{
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+    padding-left: 12%;
+ }
+
+ .section-5 h1{
+    font-weight: 900;
+    font-size: 30px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-left: 25px;
+ }
+
+ .section-5 > .p{
+    margin-left: 25px;
+ }
+
+ .section-5 > .grads{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 25px;
+ }
+
+ .sara img{
+    cursor: pointer;
+    height: 200px;
+    margin-right: 15px;
+    box-shadow: 0 8px 6px -6px rgb(196, 195, 195);
+    border-radius: 0.25rem;
+ }
+
+ .name {
+    font-weight: 600;
+    margin: 0;
+    font-size: inherit;
+ }
+
+ .name:hover{
+    color: #007AFF;
+    cursor: pointer;
+ }
+
+ .slag{
+    font-weight: 500;
+    font-size: .875rem;
+    line-height: 1.25rem;
+    color: gray;
+
+ }
+
+ .Abdirisak img{
+    cursor: pointer;
+    height: 200px;
+    margin-right: 15px;
+    box-shadow: 0 8px 6px -6px rgb(196, 195, 195);
+    border-radius: 0.25rem;
+ }
+
+ 
+
+ .Hussein img{
+    cursor: pointer;
+    height: 200px;
+    margin-right: 15px;
+    box-shadow: 0 8px 6px -6px rgb(196, 195, 195);
+    border-radius: 0.25rem;
+ }
+
+ .section-6{
+    background-color: #FFF2D5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1rem;
+   
+ }
+
+ .section-6 h1{
+    margin-top: 50px;
+    font-weight: 900;
+    font-size: 30px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+ }
+ .section-6 h1 span{
+    color: #007AFF;
+ }
+
+ .section-6 p{
+    text-align: center;
+    padding-bottom: 1rem;
+ }
+
+ .section-6 button{
+    margin-bottom: 80px;
+    background-color: #FFF2D5;
+    border-color: #007AFF;
+    padding: 8px 12px;
+    cursor: pointer;
+    color: #007AFF;
+    font-size: .875rem;
+    line-height: 1.25rem;
+ }
+
+ .section-7{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 14px;   
+    
+    padding: 10px 0 10px 0;  
+    width: 100%;
+ }
+
+ .follow{
+    color: gray;
+    font-size: .75rem;
+    line-height: 1rem;
+    font-weight: 600;
+ }
+
+ .fa {
+    color: #007AFF;
+    background-color: #D8EAFF;
+    padding: 0.5rem;
+    border-radius: 0.375rem;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 1rem;
+
+ }
+ 
+
+ .social  li {
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    list-style: none;
+    margin-right: 0.375rem;
+    
+    
+  }
+
+  hr{
+    border-width: 1.2px;
+    width: 60%;
+    background: #000;
+    opacity: 0.1;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+
+  .footer{
+    font-size: .875rem;
+    line-height: 1.25rem;
+    text-align: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+  
